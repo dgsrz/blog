@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: dgsrz的部落阁
+subtitle: 萌豚，中二病晚期
 description:
-author: John Doe
+author: dgsrz
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://dgsrz.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,3 +69,9 @@ theme: yilia
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Rss generator
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
